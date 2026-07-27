@@ -8,6 +8,6 @@ public class Scorer : MonoBehaviour
 void OnCollisionEnter(Collision other)
 {
     hits = hits + 1;
- Debug.Log("You have bumped into the wall " + hits + "Times");
+ Debug.Log("You have bumped into the wall " + hits + " Times");
 }
 }
