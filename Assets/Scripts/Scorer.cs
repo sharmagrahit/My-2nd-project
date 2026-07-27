@@ -2,7 +2,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
 
-public class Scorere : MonoBehaviour
+public class Scorer : MonoBehaviour
 {
     int hits =0;
 void OnCollisionEnter(Collision other)
